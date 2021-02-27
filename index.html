@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Unbeatable Tic-Tac-Toe</h1>
+    </div>
+    <div align="center">
+        <img src="/resources/arrow.png" id="switch" height="24px" weight="24px">
+    </div>
+
+    <div class="wrapper">
+        <div >
+            <img src="/resources/user.png" height="150px" weight="150px">
+            <h3>YOU</h3>
+            <h1>X</h1>
+        </div>
+
+        <div class="board" id="boardId">
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+            <div class="cell" data-cell=""></div>
+        </div>
+
+        <div class="center">
+            <img src="/resources/ai_bot.png" height="150px" weight="150px">
+            <h3>AI</h3>
+            <h1>O</h1>
+        </div>
+    </div>
+
+
+    <div class="game-end-message" id="endMesage">
+        <div data-end-message></div>
+        <button id="retryBtn">Retry</button>
+    </div>
+    
+</body>
+</html>
